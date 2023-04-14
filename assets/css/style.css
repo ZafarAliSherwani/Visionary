@@ -405,6 +405,9 @@ form input{
     object-fit: contain;
 }
 
+.tag a {
+    color: black;
+}
 
 
 
@@ -432,11 +435,69 @@ form input{
 /* =====================PRODUCT PAGE END========================= */
 
 
+/* =====================SPORTS PAGE END========================= */
+.sports-content h1{
+    font-size: 55px;
+    color: white;
+}
+
+.sports-content h3{
+    font-size: 32px;
+    color: white;
+}
+
+.sports-content p{
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .sports-content h1{
+        font-size: 32px;
+        color: white;
+    }
+    
+    .sports-content h3{
+        font-size: 22px;
+        color: white;
+    }
+    
+    .sports-content p{
+        color: white;
+        font-size: 18px ;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .sports-content h1{
+        font-size: 22px;
+        color: white;
+    }
+    
+    .sports-content h3{
+        font-size: 18px;
+        color: white;
+    }
+    
+    .sports-content p{
+        color: white;
+        font-size: 16px ;
+    }
+
+    .about-img img {
+        margin-top: 30%;
+
+        width: 70%;
+    }
+}
+
+
+/* =====================SPORTS PAGE END========================= */
 
 
 
 
-.owl-prev i{
+/* .owl-prev i{
     color: red !important;
     font-size: 40px !important;
-}
+} */
